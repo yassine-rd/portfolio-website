@@ -496,6 +496,24 @@ img {
 
 /*========== SKILL 1 ==========*/
 
+.skills__c {
+  width: 70%;
+}
+
+.skills__cpp {
+  width: 60%;
+}
+
+.skills__python {
+  width: 80%;
+}
+
+.skills__java {
+  width: 70%;
+}
+
+/*========== SKILL 2 ==========*/
+
 .skills__html {
   width: 90%;
 }
@@ -508,40 +526,32 @@ img {
   width: 60%;
 }
 
-.skills__react {
-  width: 30%;
-}
-
-/*========== SKILL 2 ==========*/
-
 .skills__php {
-  width: 60%;
-}
-
-.skills__node {
-  width: 30%;
-}
-
-.skills__python {
-  width: 90%;
-}
-
-.skills__sql {
-  width: 60%;
+  width: 40%;
 }
 
 /*========== SKILL 3 ==========*/
 
-.skills__word {
-  width: 90%;
-}
-
-.skills__excel {
+.skills__mysql {
   width: 70%;
 }
 
-.skills__powerpoint {
-  width: 60%;
+.skills__mongodb {
+  width: 40%;
+}
+
+/*========== SKILL 4 ==========*/
+
+.skills__office {
+  width: 90%;
+}
+
+.skills__git {
+  width: 70%;
+}
+
+.skills__ps {
+  width: 30%;
 }
 
 .skills__close .skills__list {
