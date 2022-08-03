@@ -4,9 +4,7 @@
 
 When it comes to proving yourself professionally, documentation that provides proof of your accomplishments or samples of your work is crucial. Portfolios are a great way to demonstrate the competencies you would list on a resume or talk about in an interview — they allow you to ***show*** and not just ***tell***.
 
-<p align="center">
-    <img src="https://github.com/yassine-rd/portfolio-website/blob/master/assets/img/website.png" width="600" height="300"  alt="Yassine's website"/>
-</p>
+![Website image](https://github.com/yassine-rd/portfolio-website/blob/master/assets/img/website.png)
 
 ## Project Aim
 
