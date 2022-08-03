@@ -12,6 +12,6 @@ When it comes to proving yourself professionally, documentation that provides pr
 
 Building a responsive personal portfolio website in order to gather knowledge that I have acquired from my coursework as well as self study.
 
-You can access the website [here](yassine-rd/github.io/portfolio-website).
+You can access the website [here](yassine-rd.github.io/portfolio-website).
 
 For more information please contact yassine.rodani@uha.fr or yassine.rodani@gmail.com
