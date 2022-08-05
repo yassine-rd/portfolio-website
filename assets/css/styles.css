@@ -85,7 +85,7 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
-/*========== Button Dark/Light ==========*/
+/*========== Dark/Light button ==========*/
 .nav__btns {
   display: flex;
   align-items: center;
@@ -261,7 +261,7 @@ img {
   color: var(--first-color-alt);
 }
 
-/* Show menu */
+/* show menu */
 .show-menu {
   bottom: 0;
 }
@@ -271,7 +271,7 @@ img {
   color: var(--first-color);
 }
 
-/* Change header background */
+/* Change background header */
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
@@ -494,7 +494,7 @@ img {
   background-color: var(--first-color);
 }
 
-  /*========== Skill 1 ==========*/
+/*========== SKILL 1 ==========*/
 
 .skills__c {
   width: 70%;
@@ -512,7 +512,7 @@ img {
   width: 70%;
 }
 
-  /*========== Skill 2 ==========*/
+/*========== SKILL 2 ==========*/
 
 .skills__html {
   width: 90%;
@@ -530,7 +530,7 @@ img {
   width: 40%;
 }
 
-  /*========== Skill 3 ==========*/
+/*========== SKILL 3 ==========*/
 
 .skills__mysql {
   width: 70%;
@@ -540,7 +540,7 @@ img {
   width: 40%;
 }
 
-  /*========== Skill 4 ==========*/
+/*========== SKILL 4 ==========*/
 
 .skills__office {
   width: 90%;
@@ -639,7 +639,6 @@ img {
   color: var(--first-color);
 }
 
-
 /*==================== PROJECTS ====================*/
 .projects__container {
   overflow: initial;
@@ -701,7 +700,7 @@ img {
   outline: none;
 }
 
-/*==================== CONTACT ====================*/
+/*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
 }
@@ -747,6 +746,55 @@ img {
   border: none;
   outline: none;
   padding: .25rem .5rem .5rem 0;
+}
+
+.contact__submit {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+#contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--font-medium);
+  font-family: var(--body-font);
+  cursor: pointer;
+}
+
+#contact__status {
+  color: #FFF;
+  padding: .6rem;
+  border-radius: 5px;
+  font-size: var(--smaller-font-size);
+}
+
+#contact__status.success {
+  background-color: rgb(79, 162, 116);
+  animation: status 4s ease forwards;
+}
+
+#contact__status.error {
+  background-color: rgb(201, 88, 88);
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 /*==================== FOOTER ====================*/
@@ -805,7 +853,7 @@ img {
   color: #FFF;
 }
 
-/*========== SCROLL UP BUTTON ==========*/
+/*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -885,6 +933,11 @@ img {
 
   .qualification__data {
     gap: .5rem;
+  }
+
+  .contact__submit {
+    display: grid;
+    row-gap: 1.5rem;
   }
 }
 

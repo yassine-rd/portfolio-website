@@ -575,7 +575,6 @@
                     <div>
                         <div class="contact__information">
                             <i class="uil uil-phone-alt contact__icon"></i>
-
                             <div>
                                 <h3 class="contact__title">Phone</h3>
                                 <span class="contact__subtitle">+33 626-323-290</span>
@@ -583,7 +582,6 @@
                         </div>
                         <div class="contact__information">
                             <i class="uil uil-envelope contact__icon"></i>
-
                             <div>
                                 <h3 class="contact__title">E-mail</h3>
                                 <span class="contact__subtitle">yassine.rodani@gmail.com</span>
@@ -591,37 +589,33 @@
                         </div>
                         <div class="contact__information">
                             <i class="uil uil-map-marker contact__icon"></i>
-
                             <div>
                                 <h3 class="contact__title">Location</h3>
                                 <span class="contact__subtitle">Mulhouse - France</span>
                             </div>
                         </div>
-                        
                     </div>
 
-                    <form method="post" action="" class="contact__form grid">
+                    <form action="https://formspree.io/f/mnqrawen" method="POST" class="contact__form grid" id="my-form">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input" required>
+                                <input type="text" id="name" name="name" class="contact__input" required>
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">E-mail</label>
-                                <input type="email" class="contact__input" required>
+                                <input type="email" id="email" name="email" class="contact__input" required>
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Message</label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact__input" required></textarea>
+                                <textarea id="message" name="message" cols="0" rows="6" class="contact__input" required></textarea>
                             </div>
-
-                            <div>
-                                
-                                <a href="#contact" class="button button--flex">
-                                    Send Message
-                                    <i class="uil uil-message button__icon"></i>
-                                </a>
-                            </div>
+                            <div class="contact__submit">
+                                <div>
+                                    <input type="submit" value="Send Message" class="button button--flex" id="contact__button">
+                                </div>
+                                <div id="contact__status"></div>
+                            </div>                    
                         </div>
                     </form>
                 </div>
