@@ -1,14 +1,14 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/*==================== VARIABLES CSS ====================*/
+/*==================== CSS VARIABLES ====================*/
 :root {
 
   --header-height: 3rem;
 
 
   /*========== Colors ==========*/
-  /* Change favorite color */
+  /* Change theme color */
   --hue-color: 202;
   /*Purple 250 - Green 142 - Blue 202 - Pink 340*/
 
@@ -42,7 +42,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
+  /*========== Bottom margins ==========*/
   /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
   --mb-0-25: .25rem;
   --mb-0-5: .5rem;
@@ -72,7 +72,7 @@
   }
 }
 
-/*========== Variables Dark theme ==========*/
+/*========== Dark theme variables ==========*/
 body.dark-theme {
   /* HSL color mode */
   --first-color-second: hsl(var(--hue-color), 30%, 8%);
@@ -261,7 +261,7 @@ img {
   color: var(--first-color-alt);
 }
 
-/* show menu */
+/* Show menu */
 .show-menu {
   bottom: 0;
 }
@@ -271,7 +271,7 @@ img {
   color: var(--first-color);
 }
 
-/* Change background header */
+/* Change header background */
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
@@ -494,7 +494,7 @@ img {
   background-color: var(--first-color);
 }
 
-/*========== SKILL 1 ==========*/
+  /*========== Skill 1 ==========*/
 
 .skills__c {
   width: 70%;
@@ -512,7 +512,7 @@ img {
   width: 70%;
 }
 
-/*========== SKILL 2 ==========*/
+  /*========== Skill 2 ==========*/
 
 .skills__html {
   width: 90%;
@@ -530,7 +530,7 @@ img {
   width: 40%;
 }
 
-/*========== SKILL 3 ==========*/
+  /*========== Skill 3 ==========*/
 
 .skills__mysql {
   width: 70%;
@@ -540,7 +540,7 @@ img {
   width: 40%;
 }
 
-/*========== SKILL 4 ==========*/
+  /*========== Skill 4 ==========*/
 
 .skills__office {
   width: 90%;
@@ -639,8 +639,6 @@ img {
   color: var(--first-color);
 }
 
-/* Active Modal */
-
 
 /*==================== PROJECTS ====================*/
 .projects__container {
@@ -703,7 +701,7 @@ img {
   outline: none;
 }
 
-/*==================== CONTACT ME ====================*/
+/*==================== CONTACT ====================*/
 .contact__container {
   row-gap: 3rem;
 }
@@ -750,7 +748,6 @@ img {
   outline: none;
   padding: .25rem .5rem .5rem 0;
 }
-
 
 /*==================== FOOTER ====================*/
 .footer {
@@ -808,7 +805,7 @@ img {
   color: #FFF;
 }
 
-/*========== SCROLL UP ==========*/
+/*========== SCROLL UP BUTTON ==========*/
 .scrollup {
   position: fixed;
   right: 1rem;
