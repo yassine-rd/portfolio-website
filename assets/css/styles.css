@@ -496,11 +496,11 @@ img {
 
 /*========== SKILL 1 ==========*/
 
-.skills__c {
+.skills__c__cpp {
   width: 70%;
 }
 
-.skills__cpp {
+.skills__csharp {
   width: 60%;
 }
 
