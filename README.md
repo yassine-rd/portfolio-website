@@ -1,4 +1,4 @@
-# [Responsive portfolio website](yassine-rd.github.io/portfolio-website)
+# [Responsive portfolio website](https://yassine-rd.github.io/portfolio-website)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/yassine-rd/portfolio-website?color=red&label=repository%20size)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yassine-rd/portfolio-website?color=red)
