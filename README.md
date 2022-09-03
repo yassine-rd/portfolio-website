@@ -17,13 +17,13 @@ When it comes to proving yourself professionally, documentation that provides pr
 
 Building a responsive personal portfolio website to showcase my projects, experience and skills.
 
-## 💻 Built with
+## 💻 Technologies
 
-- HTML
-- CSS
-- Javascript
-  - SwiperJS
-  - ScrollRevealJS
+![HTML](https://img.shields.io/badge/HTML-%2312100E.svg?style=for-the-badge&logo=html5&logoColor=orange)
+![CSS](https://img.shields.io/badge/CSS-%2312100E.svg?style=for-the-badge&logo=css3&logoColor=blue)
+![Javascript](https://img.shields.io/badge/Javascript-%2312100E.svg?style=for-the-badge&logo=javascript&logoColor=yellow)
+![SwiperJS](https://img.shields.io/badge/Swiper.JS-%2312100E.svg?style=for-the-badge&logo=Swiper&logoColor=9cf)
+![ScrollRevealJS](https://img.shields.io/badge/ScrollReveal.JS-%2312100E.svg?style=for-the-badge&logo=ScrollReveal&logoColor=pink)
 
 ## 💡 Deployment
 
