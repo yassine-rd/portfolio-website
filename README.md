@@ -15,7 +15,15 @@ When it comes to proving yourself professionally, documentation that provides pr
 
 ## 🎯 Project Aim
 
-Building a responsive personal portfolio website in order to gather knowledge that I have acquired from my coursework as well as self study.
+Building a responsive personal portfolio website to showcase my projects, experience and skills.
+
+## 💻 Built with
+
+- HTML
+- CSS
+- Javascript
+  - SwiperJS
+  - ScrollRevealJS
 
 ## 💡 Deployment
 
