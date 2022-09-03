@@ -38,4 +38,4 @@ For more information please contact yassine.rodani@gmail.com
 
 This project is licensed under the MIT License  
 MIT ©Yassine RODANI  
-See the license file for more details [LICENSE.md](https://github.com/yassine-rd/portfolio-website/blob/master/LICENSE)
+See the license file for more details [LICENSE](https://github.com/yassine-rd/portfolio-website/blob/master/LICENSE).
