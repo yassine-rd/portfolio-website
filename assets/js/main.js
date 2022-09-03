@@ -188,32 +188,32 @@ var form = document.getElementById("my-form");
 const sr_right = ScrollReveal({
   origin: 'right',
   distance: '50px',
-  duration: 3000,
+  duration: 2500,
 })
 
-sr_right.reveal('.home__img', {distance: '120px', delay: 50})
-sr_right.reveal('.home__data', { delay: 200})
+sr_right.reveal('.home__img', {distance: '120px'})
+sr_right.reveal('.home__data')
 
 const sr_left = ScrollReveal({
   origin: 'left',
   distance: '50px',
-  duration: 3000,
+  duration: 2500,
 })
 
-sr_left.reveal('.home__social', { delay: 200})
+sr_left.reveal('.home__social')
 
 const sr_bottom = ScrollReveal({
   origin: 'bottom',
   distance: '50px',
-  duration: 3000,
+  duration: 2500,
 })
 
-sr_bottom.reveal('.home__scroll', { delay: 200})
+sr_bottom.reveal('.home__scroll')
 
-ScrollReveal().reveal('.section__title', {duration: 1000})
-ScrollReveal().reveal('.section__subtitle', {duration: 1000})
-ScrollReveal().reveal('.about__container', {duration: 2000})
-ScrollReveal().reveal('.skills__container', {duration: 2000})
-ScrollReveal().reveal('.qualification__container', {duration: 2000})
-ScrollReveal().reveal('.projects__container', {duration: 2000})
-ScrollReveal().reveal('.contact__container', {duration: 2000})
+ScrollReveal().reveal('.section__title', {duration: 2000, delay: 300})
+ScrollReveal().reveal('.section__subtitle', {duration: 2500, delay: 400})
+ScrollReveal().reveal('.about__container', {duration: 2000, delay: 500})
+ScrollReveal().reveal('.skills__container', {duration: 2000, delay: 200})
+ScrollReveal().reveal('.qualification__container', {duration: 2000, delay: 200})
+ScrollReveal().reveal('.projects__container', {duration: 2000, delay: 200})
+ScrollReveal().reveal('.contact__container', {duration: 2000, delay: 200})
