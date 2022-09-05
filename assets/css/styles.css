@@ -601,7 +601,47 @@ img {
   font-weight: var(--font-medium);
 }
 
+.qualification__title a {
+  background-image: linear-gradient(
+    to right,
+    #57aee0,
+    #57aee0 50%,
+    #232729 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 0 0;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.qualification__title a:before {
+  content: '';
+  background: var(--first-color);
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.4s ease-in-out;
+}
+
+.qualification__title a:hover {
+ background-position: 0;
+ cursor: default;
+}
+
+.qualification__title a:hover::before {
+  width: 100%;
+}
+
 .qualification__subtitle {
+  padding-top: 3px;
   display: inline-block;
   font-size: small;
 }
