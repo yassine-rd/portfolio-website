@@ -497,11 +497,11 @@ img {
 /*========== SKILL 1 ==========*/
 
 .skills__c__cpp {
-  width: 70%;
+  width: 60%;
 }
 
-.skills__csharp {
-  width: 60%;
+.skills__sql {
+  width: 80%;
 }
 
 .skills__python {
@@ -510,6 +510,14 @@ img {
 
 .skills__java {
   width: 70%;
+}
+
+.skills__js {
+  width: 70%;
+}
+
+.skills__ts {
+  width: 60%;
 }
 
 /*========== SKILL 2 ==========*/
@@ -522,37 +530,50 @@ img {
   width: 80%;
 }
 
-.skills__js {
-  width: 60%;
+.skills__angular {
+  width: 50%;
 }
 
-.skills__angular {
-  width: 60%;
+.skills__react {
+  width: 40%;
 }
 
 /*========== SKILL 3 ==========*/
 
-.skills__mysql {
+.skills__tf {
+  width: 80%;
+}
+
+.skills__scikit {
+  width: 60%;
+}
+
+.skills__pytorch {
+  width: 40%;
+}
+
+.skills__pandas {
   width: 70%;
 }
 
-.skills__mongodb {
+.skills__numpy {
+  width: 70%;
+}
+
+.skills__opencv {
   width: 40%;
 }
 
 /*========== SKILL 4 ==========*/
 
-.skills__office {
-  width: 90%;
+.skills__django {
+  width: 60%;
 }
 
-.skills__git {
+.skills__flask {
   width: 70%;
 }
 
-.skills__ps {
-  width: 30%;
-}
 
 .skills__close .skills__list {
   height: 0;
@@ -601,12 +622,6 @@ img {
   font-weight: var(--font-medium);
 }
 
-.qualification__title a {
-  cursor: default;
-  color: var(--title-color);
-  text-decoration: none;
-}
-
 .qualification__subtitle {
   padding-top: 3px;
   display: inline-block;
@@ -644,6 +659,89 @@ img {
 
 .qualification__button.qualification__active {
   color: var(--first-color);
+}
+
+/*==================== CERTIFICATIONS ====================*/
+.certification__container{
+  gap: 1.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.certification__content{
+  position: relative;
+  background-color: var(--container-color);
+  padding: 3.5rem .5rem 1.25rem 1.5rem;
+  border-radius: .25rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.certification__content:hover{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.certification__img_1{
+  padding: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  animation: float-img 3.5s ease-in-out infinite;
+}
+
+.certification__img{
+  padding-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  animation: float-img 3.5s ease-in-out infinite;
+}
+
+@keyframes float-img{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-.25rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.certification__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-medium);
+  padding-right: 2rem;
+}
+
+.certification__subtitle{
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+  padding-right: 2rem;
+}
+
+.certification__description{
+  margin-bottom: var(--mb-1-5);
+  font-size: var(--smaller-font-size);
+  padding-right: 2rem;
+}
+
+.certification__button{
+  cursor: pointer;
+  font-size: var(--small-font-size);
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.certification__button:hover{
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.certification__button:hover .button__icon{
+  transform: translateX(.25rem)
 }
 
 /*==================== PROJECTS ====================*/
@@ -696,7 +794,7 @@ img {
   bottom: -2.5rem;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-pagination-bullet {
   background-color: var(--first-color);
 }
 
@@ -705,6 +803,34 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
+}
+
+/*==================== BLOG ====================*/
+.blog__container{
+  overflow: initial;
+}
+
+.blog__content{
+  padding: 0 1.5rem;
+}
+
+.blog__img{
+  width: 400px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.blog__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.blog__description{
+  margin-bottom: var(--mb-0-75);
+}
+
+.blog__button:hover .button__icon {
+  transform: translateX(.25rem);
 }
 
 /*==================== CONTACT ME ====================*/
@@ -942,6 +1068,11 @@ img {
     gap: .5rem;
   }
 
+  .certification__container{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+  }
+
   .contact__submit {
     display: grid;
     row-gap: 1.5rem;
@@ -970,6 +1101,7 @@ img {
   .about__container,
   .skills__container,
   .projects__content,
+  .blog__content,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -980,6 +1112,11 @@ img {
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
+  .certification__container{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+ }
 }
 
 @media screen and (min-width: 768px) {
@@ -1092,6 +1229,10 @@ img {
     align-items: center;
   }
 
+  .blog__content{
+    align-items: center;
+}
+
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1102,11 +1243,15 @@ img {
 
   .footer__links {
     flex-direction: row;
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
 
   .footer__socials {
-    justify-self: flex-end;
+    justify-self:flex-end;
+  }
+
+  .footer__social {
+    margin: 1.5rem;
   }
 
   .footer__copy {
@@ -1142,6 +1287,10 @@ img {
   .projects__content {
     column-gap: 5rem;
   }
+
+  .blog__content{
+    column-gap: 5rem;
+}
 
   .swiper-projects-icon {
     font-size: 3rem;

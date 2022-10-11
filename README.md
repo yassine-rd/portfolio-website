@@ -1,4 +1,4 @@
-# [Responsive portfolio website](https://yassine-rd.github.io/portfolio-website)
+# [Responsive portfolio website](https://yassine-rodani.info)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/yassine-rd/portfolio-website?color=red&label=repository%20size)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yassine-rd/portfolio-website?color=red)
@@ -28,7 +28,7 @@ Building a responsive personal portfolio website to showcase my projects, experi
 ## 💡 Deployment
 
 Deployment is currently in use.  
-You can access the website [here](https://yassine-rd.github.io/portfolio-website).
+You can access the website [here](https://yassine-rodani.info).
 
 ## 💬 Contact
 
