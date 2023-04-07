@@ -309,6 +309,11 @@ img {
 
 .home__blob-img {
   width: 200px;
+  transition: 0.5s;
+}
+
+.home__blob-img:hover {
+  transform: translateY(-5px);
 }
 
 .home__data {
@@ -393,6 +398,11 @@ img {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
+  transition: .5s;
+}
+
+.about__img:hover {
+  transform: scale(1.05);
 }
 
 .about__description {
@@ -496,8 +506,8 @@ img {
 
 /*========== SKILL 1 ==========*/
 
-.skills__c__cpp {
-  width: 60%;
+.skills__swift {
+  width: 40%;
 }
 
 .skills__sql {
@@ -505,73 +515,124 @@ img {
 }
 
 .skills__python {
-  width: 80%;
+  width: 90%;
 }
 
-.skills__java {
-  width: 70%;
+.skills__r {
+  width: 60%;
 }
 
 .skills__js {
   width: 70%;
 }
 
-.skills__ts {
+.skills__java {
   width: 60%;
 }
 
 /*========== SKILL 2 ==========*/
 
-.skills__html {
-  width: 90%;
+.skills__np {
+  width: 85%;
 }
 
-.skills__css {
+.skills__pd {
   width: 80%;
 }
 
-.skills__angular {
-  width: 50%;
-}
-
-.skills__react {
-  width: 40%;
-}
-
-/*========== SKILL 3 ==========*/
-
-.skills__tf {
-  width: 80%;
-}
-
-.skills__scikit {
-  width: 60%;
-}
-
-.skills__pytorch {
-  width: 40%;
-}
-
-.skills__pandas {
+.skills__plt {
   width: 70%;
 }
 
-.skills__numpy {
+.skills__sk {
   width: 70%;
 }
 
-.skills__opencv {
-  width: 40%;
+.skills__sea {
+  width: 60%;
 }
 
-/*========== SKILL 4 ==========*/
-
-.skills__django {
-  width: 60%;
+.skills__cv {
+  width: 70%;
 }
 
 .skills__flask {
   width: 70%;
+}
+
+.skills__streamlit {
+  width: 60%;
+}
+
+.skills__tf {
+  width: 85%;
+}
+
+.skills__pytorch {
+  width: 80%;
+}
+
+.skills__ntlk {
+  width: 80%;
+}
+
+/*========== SKILL 3 ==========*/
+
+.skills__lr {
+  width: 85%;
+}
+
+.skills__dt {
+  width: 70%;
+}
+
+.skills__eda {
+  width: 80%;
+}
+
+.skills__ts {
+  width: 70%;
+}
+
+.skills__cnn {
+  width: 90%;
+}
+
+.skills__nlp {
+  width: 90%;
+}
+
+.skills__em {
+  width: 60%;
+}
+
+.skills__rs {
+  width: 60%;
+}
+
+.skills__mml {
+  width: 70%;
+}
+/*========== SKILL 4 ==========*/
+
+.skills__mysql {
+  width: 80%;
+}
+
+.skills__mgdb {
+  width: 70%;
+}
+
+.skills__tableau {
+  width: 60%;
+}
+
+.skills__powerbi {
+  width: 75%;
+}
+
+.skills__looker {
+  width: 50%;
 }
 
 
@@ -694,6 +755,15 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  animation: float-img 3.5s ease-in-out infinite;
+}
+
+.certification__img_2{
+  padding-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   animation: float-img 3.5s ease-in-out infinite;
 }
 
