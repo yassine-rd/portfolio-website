@@ -1,18 +1,18 @@
-<!--style inspired by https://github.com/bedimcode/responsive-portfolio-website-Alexa-->
-<!--author : Yassine Rodani-->
+<!--style inspired by: https://github.com/bedimcode-->
+<!--author: Yassine Rodani-->
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
         <!--==================== META ====================-->
         <meta name="description"
-            content="Personal page of Yassine Rodani, Computer Science Student at University Haute-Alsace">
+            content="Personal page of Yassine Rodani, Computer Science Student at University of Haute-Alsace and AI Engineer Intern at SII Est">
         <meta name="keywords"
-            content="yassine rodani, computer science, data analysis, data science, web development, machine learning, deep learning, cloud">
+            content="yassine rodani, computer science, data analysis, data science, machine learning, deep learning, natural language processing, large language models, cloud">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Yassine Rodani - Data Science Intern</title>
+        <title>Yassine Rodani - AI Enginner Intern</title>
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <!--==================== SWIPER CSS ====================-->
@@ -21,6 +21,15 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <!--==================== FAVICON ====================-->
         <link rel="shortcut icon" href="assets/img/general/favicon.png" type="image/png">
+        <!--==================== GOOGLE ANALYTICS ====================-->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWYBRH7VQ4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-KWYBRH7VQ4');
+        </script>
         <!--==================== TYPED JS ====================-->
         <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     </head>
@@ -134,14 +143,14 @@
 
                         <div class="home__data">
                             <h1 class="home__title">
-                                Hi, I'm Yassine
+                                hi, <span class="home__colored-text">Yassine</span> here.<span class="home__colored-text"></span>
                             </h1>
-                            <h3 class="home__subtitle"><span id="multiple-text"></span></h3> 
+                            <h2 class="home__subtitle"><span id="multiple-text"></span></h2> 
                             <p class="home__description">
-                                <a href="https://sii-group.com/fr-FR/sii-est" target="_blank">@Groupe SII</a>
+                                I build <span class="home__colored-text">ML</span> systems sometimes.
                             </p>
                             <a href="#contact" class="home__button button button--flex">
-                                Contact Me <i class="uil uil-message button__icon"></i>
+                                Say hi <i class="uil uil-envelope-alt button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -159,17 +168,22 @@
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
                 <h2 class="section__title">About me</h2>
-                <span class="section__subtitle">My introduction</span>
+                <span class="section__subtitle">Quick introduction</span>
 
                 <div class="about__container container grid">
                     <img src="assets/img/general/illustration.png" alt="About section background image" class="about__img">
 
                     <div class="about__data">
                         <p class="about__description">
-                            Enthusiastic and passionate data science intern at Groupe SII.
-                            I'm striving to become a fullstack Data Scientist.<br>
+                            I'm currently an AI Enginner Intern at 
+                            <a href="https://sii-group.com/fr-FR/sii-est" class="home__colored-text">Groupe SII</a>,
+                            working on a project that involves building a multimodal machine learning system 
+                            for recognizing medical document images.<br><br>
+                            I have a keen interest in artificial intelligence, 
+                            full-stack machine learning engineering, human-computer interaction, 
+                            and everything in between.. <br><br>
                             ***<br>
-                            "Paddling through the ocean that is Deep Learning." 🧠 🔭
+                            "Paddling through the ocean that is Machine Learning." 🧠 🔭
                         </p>
                         <div class="about__info">
                             <div>
@@ -187,12 +201,12 @@
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="./assets/pdf/CV_Yassine_RODANI.pdf" class="button button--flex">
-                                Resume FR<i class="uil uil-download-alt button__icon"></i>
+                            <a download="" class="button button--flex" href="">
+                                My resume<i class="uil uil-download-alt button__icon"></i>
                             </a>
-                            <a download="" class="button button--flex" style="margin-left: 15px;">
+                            <!-- <a download="" class="button button--flex" style="margin-left: 15px;">
                                 Resume EN<i class="uil uil-download-alt button__icon"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -401,6 +415,16 @@
                                         <span class="skills__percentage skills__ntlk"></span>
                                     </div>
                                 </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Trax</h3>
+                                        <span class="skills__number">40%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__trax"></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -515,6 +539,41 @@
                         <!--==================== SKILL 4 ====================-->
                         <div class="skills__content skills__close">
                             <div class="skills__header">
+                                <i class="uil uil-cloud-lock skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Cloud and Engineering</h1>
+                                    <span class="skills__subtitle">Fly Fast & High!</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">AWS Sagemaker</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__aws"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Docker</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__docker"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== SKILL 5 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
                                 <i class="uil uil-analysis skills__icon"></i>
 
                                 <div>
@@ -565,16 +624,6 @@
                                         <span class="skills__percentage skills__powerbi"></span>
                                     </div>
                                 </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Loocker</h3>
-                                        <span class="skills__number">50%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__looker"></span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -610,7 +659,7 @@
                                     <h3 class="qualification__title">
                                         <a>High School</a>
                                     </h3>
-                                    <span class="qualification__subtitle">Morocco - Technical college</span>
+                                    <span class="qualification__subtitle">Morocco - LTMY High School</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2015 - 2018
@@ -634,7 +683,7 @@
 
                                 <div>
                                     <h3 class="qualification__title">
-                                        <a>Preparatory Program for Higher Education</a>
+                                        <a>Preparatory Program for Higher Education Institutions</a>
                                     </h3>
                                     <span class="qualification__subtitle">Morocco - CPGE</span>
                                     <div class="qualification__calendar">
@@ -650,7 +699,7 @@
                                 <div>
                                     <h3 class="qualification__title">
                                         <a>
-                                            Master in Computer Science
+                                            Bachelor of Engineering (B.Eng.) in Computer Science
                                         </a>
                                     </h3>
                                     <span class="qualification__subtitle">France - University of Haute-Alsace</span>
@@ -726,7 +775,7 @@
 
                                 <div>
                                     <h3 class="qualification__title">
-                                        <a>Data Scientist Intern</a>
+                                        <a>AI Engineer Intern</a>
                                     </h3>
                                     <span class="qualification__subtitle">France - Groupe SII</span>
                                     <div class="qualification__calendar">
@@ -802,9 +851,10 @@
                             <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
                         </div>
 
-                        <a class="button button--flex button--small button--link certification__button">
-                            In Progress
-                            <i class="uil uil-spinner-alt button__icon"></i>
+                        <a class="button button--flex button--small button--link certification__button"
+                            href="https://www.coursera.org/account/accomplishments/specialization/certificate/3NC3R8WZJWD4" target="_blank">
+                            View Certificate
+                            <i class="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -819,34 +869,41 @@
                     <div class="swiper-wrapper">
                         <!--==================== PROJECT 1 ====================-->
                         <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-1.png" alt="Bird Classifier project's image"
+                            <img src="assets/img/projects/project-5.png" alt="Movie sentiment analysis project's image"
                                 class="projects__img">
 
                             <div class="projects__data">
-                                <h3 class="projects__title">Bird Classifier</h3>
+                                <h3 class="projects__title">Movie Sentiment Analysis</h3>
                                 <p class="projects__description">
-                                    Using convolutional neural networks to build and train
-                                    a deep learning model for bird classification on photographs.
+                                    The project involved creating a movie sentiment analysis system based on user reviews, 
+                                    utilizing the Multinomial Naive Bayes algorithm, achieving 86.3% precision on the IMDb dataset, 
+                                    and deploying the NLP model through a Streamlit-powered web application, containerized with Docker.
                                 </p>
-                                <a href="https://github.com/yassine-rd/bird_species_classification" target="_blank"
+                                <a href="https://github.com/yassine-rd/movie-sentiment-analysis" target="_blank"
                                     class="button button--flex button--small projects__button">
                                     GitHub repository
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
+                                <a href="" target="_blank"
+                                class="button button--flex button--small projects__button">
+                                Report
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                             </div>
                         </div>
                         <!--==================== PROJECT 2 ====================-->
                         <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-2.png" alt="Portfolio Website project's image"
+                            <img src="assets/img/projects/project-4.png" alt="Fish Detector project's image"
                                 class="projects__img">
 
                             <div class="projects__data">
-                                <h3 class="projects__title">Portfolio Website</h3>
+                                <h3 class="projects__title">Fish Detector</h3>
                                 <p class="projects__description">
-                                    Building a responsive personal portfolio website adaptable
-                                    to all devices, with ui components and animated interactions.
+                                    The project focused on fine-tuning a YOLOv4 pre-trained model with Darknet framework 
+                                    to count and track two distinct fish species, achieving a 93% Mean Average Precision, 
+                                    while developing TensorFlow-based algorithms for model implementation.
                                 </p>
-                                <a href="https://github.com/yassine-rd/portfolio-website" target="_blank"
+                                <a href="https://github.com/yassine-rd/fish-detector" target="_blank"
                                     class="button button--flex button--small projects__button">
                                     GitHub repository
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -855,17 +912,17 @@
                         </div>
                         <!--==================== PROJECT 3 ====================-->
                         <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-3.png" alt="Classroom Manager project's image"
+                            <img src="assets/img/projects/project-2.png" alt="Portfolio Website project's image"
                                 class="projects__img">
 
                             <div class="projects__data">
-                                <h3 class="projects__title">Classroom Manager</h3>
+                                <h3 class="projects__title">Portfolio Website</h3>
                                 <p class="projects__description">
-                                    Developing a simple web application that help manage students in a class using Spring
-                                    Boot.
-                                    The frontend is built using Angular.
+                                    Built a responsive personal portfolio website adaptable
+                                    to all devices, with ui components and animated interactions to 
+                                    showcase my projects, experience and skills.
                                 </p>
-                                <a href="https://github.com/yassine-rd/classroom-manager" target="_blank"
+                                <a href="https://github.com/yassine-rd/portfolio-website" target="_blank"
                                     class="button button--flex button--small projects__button">
                                     GitHub repository
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -874,16 +931,35 @@
                         </div>
                         <!--==================== PROJECT 4 ====================-->
                         <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-4.png" alt="Fish Detector project's image"
+                            <img src="assets/img/projects/project-1.png" alt="Bird Classifier project's image"
                                 class="projects__img">
 
                             <div class="projects__data">
-                                <h3 class="projects__title">Fish Detector</h3>
+                                <h3 class="projects__title">Bird Classifier</h3>
                                 <p class="projects__description">
-                                    Implementing YOLOv4 using the Darknet framework for tracking
-                                    and counting of 2 different fish species in an aquarium.
+                                    The project involved fine-tuning a VGG16 pre-trained model for bird classification, 
+                                    achieving 92% precision on the BIRDS 525 dataset, and developing a user-friendly 
+                                    web application for deployment.
                                 </p>
-                                <a href="https://github.com/yassine-rd/fish-detector" target="_blank"
+                                <a href="https://github.com/yassine-rd/bird_species_classification" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    GitHub repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECT 5 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/projects/project-3.png" alt="Classroom Manager project's image"
+                                class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Classroom Manager</h3>
+                                <p class="projects__description">
+                                    Developed a simple web application that help manage students in a class using Spring
+                                    Boot. The frontend is built using Angular.
+                                </p>
+                                <a href="https://github.com/yassine-rd/classroom-manager" target="_blank"
                                     class="button button--flex button--small projects__button">
                                     GitHub repository
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -988,7 +1064,8 @@
                         </div>
                     </div>
 
-                    <form action="https://formspree.io/f/mnqrawen" method="POST" class="contact__form grid" id="my-form">
+                    <!-- Update the form's action to your specific form link from Formspree-->
+                    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact__form grid" id="my-form">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
@@ -1005,7 +1082,7 @@
                             </div>
                             <div class="contact__submit">
                                 <div>
-                                    <input type="submit" value="Send Message" class="button button--flex"
+                                    <input type="submit" value="Send message" class="button button--flex"
                                         id="contact__button">
                                 </div>
                                 <div id="contact__status"></div>
@@ -1055,13 +1132,10 @@
                         <a href="https://yassine-rd.medium.com/" target="_blank" class="footer__social">
                             <i class="uil uil-medium-m"></i>
                         </a>
-                        <a href="https://www.kaggle.com/yassinerodani" target="_blank" class="footer__social">
-                            <i class="fa-brands fa-kaggle"></i>
-                        </a>
                     </div>
                 </div>
 
-                <p class="footer__copy">&copy; 2023. All right reserved</p>
+                <p class="footer__copy">&copy; Copyright 2023. Yassine Rodani</p>
             </div>
         </footer>
 

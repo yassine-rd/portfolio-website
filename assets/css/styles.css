@@ -281,6 +281,10 @@ img {
   gap: 1rem;
 }
 
+.home__colored-text {
+  color: var(--first-color);
+}
+
 .home__content {
   grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
@@ -321,7 +325,7 @@ img {
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: 35px;
 }
 
 .home__subtitle {
@@ -576,6 +580,10 @@ img {
   width: 80%;
 }
 
+.skills__trax{
+  width: 40%;
+}
+
 /*========== SKILL 3 ==========*/
 
 .skills__lr {
@@ -613,7 +621,18 @@ img {
 .skills__mml {
   width: 70%;
 }
-/*========== SKILL 4 ==========*/
+
+/*========== SKILL 3 ==========*/
+
+.skills__aws {
+  width: 65%;
+}
+
+.skills__docker {
+  width: 70%;
+}
+
+/*========== SKILL 5 ==========*/
 
 .skills__mysql {
   width: 80%;
@@ -629,10 +648,6 @@ img {
 
 .skills__powerbi {
   width: 75%;
-}
-
-.skills__looker {
-  width: 50%;
 }
 
 
