@@ -17,21 +17,21 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--==================== TYPELIGHTER JS ====================-->
+        <script src ="https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js"></script>
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <!--==================== FAVICON ====================-->
         <link rel="shortcut icon" href="assets/img/general/favicon.png" type="image/png">
         <!--==================== GOOGLE ANALYTICS ====================-->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWYBRH7VQ4"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWGHS8967"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-KWYBRH7VQ4');
+            gtag('config', 'G-1PWGHS8967');
         </script>
-        <!--==================== TYPED JS ====================-->
-        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     </head>
 
     <body>
@@ -145,7 +145,9 @@
                             <h1 class="home__title">
                                 hi, <span class="home__colored-text">Yassine</span> here.<span class="home__colored-text"></span>
                             </h1>
-                            <h2 class="home__subtitle"><span id="multiple-text"></span></h2> 
+                            <h2 class="home__subtitle">
+                                <span class="typeWriter" data-text='["AI Engineer Intern", "Deep Learning Enthusiast"]' data-speed=2></span>
+                            </h2> 
                             <p class="home__description">
                                 I build <span class="home__colored-text">ML</span> systems sometimes.
                             </p>
@@ -175,7 +177,7 @@
 
                     <div class="about__data">
                         <p class="about__description">
-                            I'm currently an AI Enginner Intern at 
+                            I'm currently an AI Engineer Intern at 
                             <a href="https://sii-group.com/fr-FR/sii-est" class="home__colored-text">Groupe SII</a>,
                             working on a project that involves building a multimodal machine learning system 
                             for recognizing medical document images.<br><br>
@@ -187,8 +189,8 @@
                         </p>
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">5</span>
-                                <span class="about__info-name">Months<br> experience</span>
+                                <span class="about__info-title">1+</span>
+                                <span class="about__info-name">Year<br> experience</span>
                             </div>
                             <div>
                                 <span class="about__info-title">6</span>
@@ -201,7 +203,7 @@
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" class="button button--flex" href="">
+                            <a download="" class="button button--flex" href="/assets/pdf/Resume_Yassine_RODANI.pdf">
                                 My resume<i class="uil uil-download-alt button__icon"></i>
                             </a>
                             <!-- <a download="" class="button button--flex" style="margin-left: 15px;">
@@ -699,10 +701,10 @@
                                 <div>
                                     <h3 class="qualification__title">
                                         <a>
-                                            Bachelor of Engineering (B.Eng.) in Computer Science
+                                            Engineer's degree in Computer Science
                                         </a>
                                     </h3>
-                                    <span class="qualification__subtitle">France - University of Haute-Alsace</span>
+                                    <span class="qualification__subtitle">France - ENSISA, University of Upper Alsace</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2020 - 2023
@@ -730,7 +732,7 @@
                                             Machine Learning Specialization
                                         </a>
                                     </h3>
-                                    <span class="qualification__subtitle">France - University of Haute-Alsace</span>
+                                    <span class="qualification__subtitle">France - ENSISA, University of Upper Alsace</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2021 - 2023
@@ -750,7 +752,7 @@
                                     <h3 class="qualification__title">
                                         <a>Software Developer Intern</a>
                                     </h3>
-                                    <span class="qualification__subtitle">Morocco - Fujikura</span>
+                                    <span class="qualification__subtitle">Morocco - Fujikura Automotive</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         07/2021 - 08/2021
@@ -869,6 +871,30 @@
                     <div class="swiper-wrapper">
                         <!--==================== PROJECT 1 ====================-->
                         <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/projects/project-6.png" alt="PaperWhiz project's image"
+                                class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">PaperWhiz</h3>
+                                <p class="projects__description">
+                                    The project involves developing a conversational recommendation system for machine learning papers. 
+                                    The system is designed to recommend germane 
+                                    papers tailored to a user's specific interests.
+                                </p>
+                                <a href="https://github.com/yassine-rd/Paperwhiz" target="_blank"
+                                    class="button button--flex button--small projects__button">
+                                    GitHub repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="" target="_blank"
+                                class="button button--flex button--small projects__button">
+                                Report
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECT 2 ====================-->
+                        <div class="projects__content grid swiper-slide">
                             <img src="assets/img/projects/project-5.png" alt="Movie sentiment analysis project's image"
                                 class="projects__img">
 
@@ -884,14 +910,14 @@
                                     GitHub repository
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <a href="" target="_blank"
+                                <a href="./assets/pdf/Movie_Sentiment_Analysis_report.pdf" target="_blank"
                                 class="button button--flex button--small projects__button">
                                 Report
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                             </div>
                         </div>
-                        <!--==================== PROJECT 2 ====================-->
+                        <!--==================== PROJECT 3 ====================-->
                         <div class="projects__content grid swiper-slide">
                             <img src="assets/img/projects/project-4.png" alt="Fish Detector project's image"
                                 class="projects__img">
@@ -910,7 +936,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--==================== PROJECT 3 ====================-->
+                        <!--==================== PROJECT 4 ====================-->
                         <div class="projects__content grid swiper-slide">
                             <img src="assets/img/projects/project-2.png" alt="Portfolio Website project's image"
                                 class="projects__img">
@@ -929,7 +955,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--==================== PROJECT 4 ====================-->
+                        <!--==================== PROJECT 5 ====================-->
                         <div class="projects__content grid swiper-slide">
                             <img src="assets/img/projects/project-1.png" alt="Bird Classifier project's image"
                                 class="projects__img">
@@ -948,7 +974,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--==================== PROJECT 5 ====================-->
+                        <!--==================== PROJECT 6 ====================-->
                         <div class="projects__content grid swiper-slide">
                             <img src="assets/img/projects/project-3.png" alt="Classroom Manager project's image"
                                 class="projects__img">
@@ -1064,8 +1090,7 @@
                         </div>
                     </div>
 
-                    <!-- Update the form's action to your specific form link from Formspree-->
-                    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact__form grid" id="my-form">
+                    <form action="https://formspree.io/f/mnqrawen" method="POST" class="contact__form grid" id="my-form">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
@@ -1099,7 +1124,7 @@
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Yassine</h1>
-                        <span class="footer__subtitle"><span id="multiple-text-footer"></span></span>
+                        <span class="typeWriter footer__subtitle" data-text='["AI Engineer Intern", "Deep Learning Enthusiast"]' data-speed=2></span>
                     </div>
 
                     <ul class="footer__links">
@@ -1132,6 +1157,9 @@
                         <a href="https://yassine-rd.medium.com/" target="_blank" class="footer__social">
                             <i class="uil uil-medium-m"></i>
                         </a>
+                        <!-- <a href="https://www.kaggle.com/yassinerodani" target="_blank" class="footer__social">
+                            <i class="fa-brands fa-kaggle"></i>
+                        </a> -->
                     </div>
                 </div>
 

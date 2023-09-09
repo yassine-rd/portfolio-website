@@ -842,6 +842,11 @@ img {
   width: 400px;
   border-radius: .5rem;
   justify-self: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects__img:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as needed */
 }
 
 .projects__title {
