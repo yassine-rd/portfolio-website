@@ -21,14 +21,8 @@ This project involves building a responsive personal portfolio website that effe
 
 ## 💡 Deployment
 
-You can access the website [here](https://yassine-rodani.info).
+You can access the website [here](https://yassine-website.netlify.app/).
 
 ## 💬 Contact
 
-For more information please contact <yassine.rodani@gmail.com>
-
-## 📜 License
-
-This project is licensed under the MIT License
-
-See the license file for more details [LICENSE](https://github.com/yassine-rd/portfolio-website/blob/master/LICENSE).
+For more information, please contact <yassine.rodani@gmail.com>
