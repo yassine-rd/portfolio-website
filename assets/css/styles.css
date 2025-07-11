@@ -510,8 +510,8 @@ img {
 
 /*========== SKILL 1 ==========*/
 
-.skills__swift {
-  width: 40%;
+.skills__csharp {
+  width: 90%;
 }
 
 .skills__sql {
@@ -519,19 +519,19 @@ img {
 }
 
 .skills__python {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__r {
-  width: 60%;
+  width: 50%;
 }
 
 .skills__js {
-  width: 70%;
+  width: 60%;
 }
 
-.skills__java {
-  width: 60%;
+.skills__cpp {
+  width: 70%;
 }
 
 /*========== SKILL 2 ==========*/
